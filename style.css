@@ -359,3 +359,30 @@ body {
     color: #444;
     margin-bottom: 30px;
 }
+.thumbnail-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.thumbnail-row img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.thumbnail-row img:hover {
+    border-color: #e71686;
+}
+@media (max-width: 768px) {
+    .product-page {
+        flex-direction: column;
+    }
+
+    .product-images {
+        max-width: 100%;
+    }
+}
