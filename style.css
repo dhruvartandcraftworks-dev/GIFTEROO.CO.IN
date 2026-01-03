@@ -92,3 +92,26 @@ body {
     text-decoration: none;
     color: inherit;
 }
+.price {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.buy-btn {
+    display: block;
+    margin: 0 16px 16px;
+    padding: 10px;
+    text-align: center;
+    background-color: #e71686;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: #f8c111;
+    color: #1a1a1a;
+}
