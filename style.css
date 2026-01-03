@@ -115,3 +115,41 @@ body {
     background-color: #f8c111;
     color: #1a1a1a;
 }
+/* SOCIAL SECTION */
+.social-section {
+    padding: 60px 40px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-links a {
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    background: #f8c111;
+    color: #1a1a1a;
+}
+
+.social-links a:hover {
+    background: #e71686;
+    color: #ffffff;
+}
+
+/* MAP SECTION */
+.map-section {
+    padding: 60px 40px;
+    background: #fafafa;
+}
+
+/* REVIEWS */
+.reviews-section {
+    padding: 60px 40px;
+    background: #ffffff;
+}
