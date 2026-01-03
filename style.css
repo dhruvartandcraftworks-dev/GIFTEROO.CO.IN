@@ -395,3 +395,8 @@ body {
 }
   
 }
+.product-video {
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+}
