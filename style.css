@@ -175,3 +175,47 @@ body {
     background: #e71686;
     color: #ffffff;
 }
+/* HERO SECTION */
+.hero {
+    padding: 80px 40px;
+    background: linear-gradient(
+        135deg,
+        rgba(248,193,17,0.15),
+        rgba(231,22,134,0.12)
+    );
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 32px;
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 14px 36px;
+    background: #e71686;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+    background: #f8c111;
+    color: #1a1a1a;
+}
