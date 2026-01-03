@@ -127,6 +127,19 @@ body {
     justify-content: center;
     gap: 24px;
 }
+/* PRODUCT PAGE IMAGE FIX */
+.product-images {
+    max-width: 420px;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    max-height: 420px;
+    object-fit: contain;
+    border-radius: 12px;
+    border: 1px solid #eee;
+}
 
 .social-links a {
     padding: 12px 28px;
