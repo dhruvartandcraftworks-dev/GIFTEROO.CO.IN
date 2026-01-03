@@ -414,3 +414,36 @@ body {
 .breadcrumb a:hover {
     text-decoration: underline;
 }
+.related-products {
+    margin-top: 50px;
+}
+
+.related-products h2 {
+    margin-bottom: 15px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card a {
+    display: inline-block;
+    margin-top: 8px;
+    color: #e71686;
+    font-weight: bold;
+    text-decoration: none;
+}
