@@ -400,3 +400,17 @@ body {
     border-radius: 12px;
     overflow: hidden;
 }
+.breadcrumb {
+    font-size: 14px;
+    margin: 15px 0;
+    color: #777;
+}
+
+.breadcrumb a {
+    color: #e71686;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
