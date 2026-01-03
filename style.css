@@ -92,4 +92,29 @@ footer {
   color: white;
   text-align: center;
   padding: 15px;
+}.product-detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 10px;
+  gap: 20px;
 }
+
+.product-image img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.product-info {
+  max-width: 400px;
+  text-align: left;
+}
+
+.product-info h2 {
+  margin-top: 0;
+}
+
+.product-info p {
+  margin: 10px 0;
+}
+
