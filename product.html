@@ -2,127 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Explosion Box | Gifteroo</title>
+    <title>Product | Gifteroo</title>
     <link rel="stylesheet" href="style.css">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "Birthday Explosion Box",
-  "image": [
-    "https://dhruvartandcraftworks-dev.github.io/GIFTEROO.CO.IN/images/chocolate-explosion-1.jpg"
-  ],
-  "description": "Handcrafted birthday explosion box with photos, messages and chocolates. A premium personalised gift by Gifteroo.",
-  "brand": {
-    "@type": "Brand",
-    "name": "Gifteroo"
-  },
-  "offers": {
-    "@type": "Offer",
-    "url": "https://dhruvartandcraftworks-dev.github.io/GIFTEROO.CO.IN/product-explosion.html",
-    "priceCurrency": "INR",
-    "price": "799",
-    "availability": "https://schema.org/InStock"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.6",
-    "reviewCount": "128"
-  }
-}
-</script>
 </head>
 <body>
 
-<!-- NAVBAR -->
 <nav class="navbar">
-    <div class="logo">
-        <span class="gold">GIFT</span><span class="pink">EROO</span>
-    </div>
+    <div class="logo"><span class="gold">GIFT</span><span class="pink">EROO</span></div>
 </nav>
-<div class="breadcrumb">
-    <a href="index.html">Home</a> ›
-    <a href="birthday.html">Birthday</a> ›
-    <span>Explosion Box</span>
-</div>
 
-<!-- PRODUCT SECTION -->
-<section class="product-page">
+<section class="product-container">
 
-    <!-- LEFT: IMAGES -->
-    <div class="product-images">
-        <img id="mainImage" src="images/Chocolate Explosion Box.jpg" class="main-image">
+    <!-- IMAGE + GALLERY -->
+    <div class="product-gallery">
+        <div class="main-img-box">
+            <img id="mainProductImg" src="images/explosion-box.jpeg" alt="Product Image">
+        </div>
+        <div class="thumbs-box">
+            <img src="images/explosion-box.jpeg" onclick="changeProductImage(this)">
+            <img src="images/explosion-box.jpeg" onclick="changeProductImage(this)">
+            <img src="images/explosion-box.jpeg" onclick="changeProductImage(this)">
+        </div>
+    </div>
 
-        <div class="thumbnail-row">
-            <img src="images/Chocolate Explosion Box.jpg" onclick="changeImage(this)">
-            <img src="images/Chocolate Explosion Box.jpg" onclick="changeImage(this)">
-            <img src="images/Chocolate Explosion Box.jpg" onclick="changeImage(this)">
+    <!-- PRODUCT DETAILS -->
+    <div class="product-info">
+        <h1 class="product-title">Heart Hexagon Explosion Box</h1>
+
+        <div class="rating-section">
+            <span class="stars">★★★★☆</span>
+            <span class="review-count">(4.8 )</span>
         </div>
 
-        <!-- PRODUCT VIDEO -->
-        <div class="product-video">
-    <iframe 
-        width="100%" 
-        height="315"
-        src="https://www.youtube.com/embed/0mAxQz4Pgek"
-        title="Product Video"
-        frameborder="0"
-        allowfullscreen>
-    </iframe>
-</div>
-
-
-    <!-- RIGHT: DETAILS -->
-    <div class="product-details">
-        <h1>Birthday Explosion Box</h1>
-        <p class="price">₹799</p>
-
-        <p class="description">
-            A beautifully handcrafted explosion box filled with memories,
-            photos, messages and surprises. Perfect for birthdays and special moments.
+        <p class="price">
+            ₹999 <span class="discounted">₹1,199</span> <span class="off">15% OFF</span>
         </p>
 
-        <a href="https://wa.me/919953325990?text=I%20want%20to%20order%20Birthday%20Explosion%20Box"
-           class="buy-btn">
-            Buy Now on WhatsApp
-        </a>
+        <p class="short-desc">Perfect Gift for occasions and celebrations — customize with your photo.</p>
+
+        <a href="https://wa.me/919953325990?text=I want to order Product Name" class="buy-btn">Order on WhatsApp</a>
+
+        <hr>
+
+        <div class="product-details-table">
+            <h3>Product Details</h3>
+            <ul>
+                <li>Category: Explosion Boxes</li>
+                
+            </ul>
+        </div>
     </div>
 
 </section>
-<section class="related-products">
-    <h2>You may also like</h2>
 
-    <div class="product-grid">
-
-        <div class="product-card">
-            <img src="images/mug-1.jpg">
-            <h4>Personalised Mug</h4>
-            <p>₹299</p>
-            <a href="product-mug.html">View</a>
-        </div>
-
-        <div class="product-card">
-            <img src="images/hamper-1.jpg">
-            <h4>Chocolate Hamper</h4>
-            <p>₹899</p>
-            <a href="product-hamper.html">View</a>
-        </div>
-
-        <div class="product-card">
-            <img src="images/frame-1.jpg">
-            <h4>Miniature Frame</h4>
-            <p>₹499</p>
-            <a href="product-frame.html">View</a>
-        </div>
-
-    </div>
-</section>
-
-<!-- IMAGE SWITCH SCRIPT -->
 <script>
-    function changeImage(img) {
-        document.getElementById("mainImage").src = img.src;
-    }
+function changeProductImage(el) {
+    document.getElementById("mainProductImg").src = el.src;
+}
 </script>
 
 </body>
