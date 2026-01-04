@@ -597,3 +597,31 @@ body {
     transform: scale(1.1);
     box-shadow: 0 6px 16px rgba(0,0,0,0.4);
 }
+/* FLOATING INSTAGRAM BUTTON */
+.instagram-float {
+    position: fixed;
+    bottom: 90px; /* sits above WhatsApp button */
+    right: 20px;
+    background: radial-gradient(circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285AEB 90%);
+    color: #fff;
+    font-size: 24px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 56px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 998;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.instagram-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+}
